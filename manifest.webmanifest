@@ -1,0 +1,13 @@
+{
+  "name": "SIPASQO",
+  "short_name": "SIPASQO",
+  "start_url": "./?abrir",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#90172A",
+  "theme_color": "#90172A",
+  "icons": [
+    { "src": "icono_app_sipasqo_192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icono_app_sipasqo_512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -8,6 +8,8 @@
 <link rel="apple-touch-icon" href="icono_app_sipasqo_180.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icono_app_sipasqo_192.png">
 <meta name="theme-color" content="#90172A">
+<!-- display "browser": el ícono abre en Safari y usa su sesión de Google (sin volver a iniciar sesión). -->
+<link rel="manifest" href="manifest.webmanifest">
 <script>
   var APP = 'https://script.google.com/macros/s/AKfycbyV-3t4k_uODwv902LJMZSKc8ThYOmk7Qk6vCA9DJDBjZg4UcYXT6OxFibDFkL8Tx_-/exec';
   // Desde el ícono de inicio (?abrir) va directo al sistema.
@@ -31,6 +33,7 @@
     <ol>
       <li>Toca <b>Compartir</b> (el cuadro con la flecha).</li>
       <li>Elige <b>Agregar a pantalla de inicio</b>.</li>
+      <li>Si aparece <b>Abrir como app web</b>, apágalo (así no te pide iniciar sesión cada vez).</li>
       <li>Toca <b>Agregar</b>.</li>
     </ol>
     <a class="btn" href="?abrir">Entrar al sistema</a>
