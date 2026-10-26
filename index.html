@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIPASQO</title>
+<meta name="apple-mobile-web-app-title" content="SIPASQO">
+<link rel="apple-touch-icon" href="icono_app_sipasqo_180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icono_app_sipasqo_192.png">
+<meta name="theme-color" content="#90172A">
+<script>
+  var APP = 'https://script.google.com/macros/s/AKfycbyV-3t4k_uODwv902LJMZSKc8ThYOmk7Qk6vCA9DJDBjZg4UcYXT6OxFibDFkL8Tx_-/exec';
+  // Desde el ícono de inicio (?abrir) va directo al sistema.
+  if (/[?&]abrir/.test(location.search)) location.replace(APP);
+</script>
+<style>
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(160deg, #90172A, #6E0F1F); color: #fff; font-family: system-ui, -apple-system, sans-serif; text-align: center; padding: 24px; box-sizing: border-box; }
+  img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 8px 24px rgba(0,0,0,.3); }
+  h1 { font-size: 22px; margin: 18px 0 6px; letter-spacing: 1px; }
+  p { font-size: 15px; line-height: 1.5; opacity: .9; max-width: 320px; margin: 8px auto; }
+  ol { text-align: left; font-size: 15px; line-height: 1.7; max-width: 300px; margin: 14px auto; padding-left: 22px; }
+  b { color: #F5EA5F; }
+  a.btn { display: inline-block; margin-top: 18px; background: #F5EA5F; color: #6E0F1F; font-weight: 800; text-decoration: none; padding: 14px 28px; border-radius: 14px; }
+</style>
+</head>
+<body>
+  <main>
+    <img src="icono_app_sipasqo_512.png" alt="SIPASQO">
+    <h1>SIPASQO</h1>
+    <p>Para tenerlo en tu iPhone con este ícono:</p>
+    <ol>
+      <li>Toca <b>Compartir</b> (el cuadro con la flecha).</li>
+      <li>Elige <b>Agregar a pantalla de inicio</b>.</li>
+      <li>Toca <b>Agregar</b>.</li>
+    </ol>
+    <a class="btn" href="?abrir">Entrar al sistema</a>
+  </main>
+  <script>
+    // Así lo que se guarda en la pantalla de inicio abre directo el sistema.
+    history.replaceState(null, '', '?abrir');
+  </script>
+</body>
+</html>
